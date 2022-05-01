@@ -1,4 +1,4 @@
-# Pythonenv
+# Create Miniconda Env
 
 ## Setup
 - Change reponame to your repository name in the following files
