@@ -2,9 +2,9 @@ CONDA_URL := https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.
 CONDA_PATH := ./miniconda
 CONDA_ENV := cocktail
 
-PYTORCH := 1.8
+PYTORCH := 1.0
 # Specifiy CUDA version for pytorch
-CUDA_VERSION := 11.1
+CUDA_VERSION := 10.0
 
 # Used for ffmpeg version: amd64 arm64 armhf armel
 CPU := i686
@@ -39,4 +39,4 @@ ffmpeg-static/ffmpeg:
 	installers/install_ffmpeg.sh $(CPU)
 
 clean:
-	rm -rf kaldi sph2pipe_v2.5* PESQ* miniconda *.install ffmpeg* facenet_pytorch_src/ sctk* py-RIR-Generator/build miniconda.sh ./signal_processing ./fdbss
+	rm -rf miniconda *.install ffmpeg*
