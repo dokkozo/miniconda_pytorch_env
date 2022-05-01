@@ -1,0 +1,50 @@
+# Python
+*.pyc
+*.pyd
+__pycache__
+*.egg-info
+.eggs
+dist
+build
+
+# PyCharm
+.idea
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+.~lock*
+
+# Compiled
+*.a
+*.so
+*.o
+
+# NFS
+.nfs*
+
+# Some binaries
+*.wav
+*.flac
+*.sv1
+*.png
+*.mp4
+*.avi
+*.scp
+*.log
+
+# Archive
+*.tar.gz
+*.tgz
+*.zip
+*.tar
+
+# The installed tools by Makefile
+tools/miniconda
+tools/miniconda.sh
+tools/*.install
+tools/ffmpeg*
+tools/*.pt
+tools/python_activate.sh

@@ -1,6 +1,6 @@
 CONDA_URL := https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 CONDA_PATH := ./miniconda
-CONDA_ENV := cocktail
+CONDA_ENV := reponame
 
 PYTORCH := 1.0
 # Specifiy CUDA version for pytorch
